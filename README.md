@@ -8,7 +8,7 @@ Githubを利用できる環境で以下のコマンドをコピーする
 
 ```
 
-$ git clone  https://github.com/IkemiyagiTaiki/robosys_2023.git
+$ git clone https://github.com/IkemiyagiTaiki/robosys_2023.git
 
 
 ```
