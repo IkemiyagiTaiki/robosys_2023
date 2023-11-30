@@ -4,18 +4,12 @@
 import sys
 import math
 
-def tonum(s):
+
+ans = float(sys.argv[1])
+def tonum(ans):
     try:
-        return int(s)
+        return int(ans)
     except:
-        return float(s)
-
-
-ans = 0
-for line in sys.stdin:
-    line = line.rstrip()
-
-    ans += tonum(line) 
-
-print(ans)
-print( math.sqrt(ans) )
+        return float(ans)
+    ans=tonum()
+print( math.sqrt(ans))
