@@ -2,6 +2,25 @@
 
 ![test](https://github.com/IkemiyagiTaiki/robosys_2023/actions/workflows/test.yml/badge.svg)
 
+## ダウンロード方法
+
+Githubを利用できる環境で以下のコマンドをコピーする
+
+```
+
+$ git clone  https://github.com/IkemiyagiTaiki/robosys_2023.git
+
+
+```
+その後、実行権限を付与する。
+
+```
+
+$ chmod +x plus
+
+```
+
+
 ## plus
 
 標準出力から読み込んだ数字を足す
@@ -10,10 +29,14 @@
 
 ```
 
+
 $ seq 5 | ./plus
 15
 
+
 ```
+
+
 ## sqrt
 
 標準出力からよみこんだ数字を平方根する
@@ -24,24 +47,6 @@ $ seq 5 | ./plus
 
 $ ./sqrt 4
 2
-
-```
-
-## ダウンロード方法
-
-Githubを利用できる環境で以下のコマンドをコピーする
-
-```
-
-$ https://github.com/IkemiyagiTaiki/robosys_2023.git
-
-
-```
-その後、実行権限を付与する。
-
-```
-
-$ chmod +x plus
 
 ```
 
