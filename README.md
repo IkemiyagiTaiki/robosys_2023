@@ -1,6 +1,6 @@
 # plusコマンド
 
-![test](https://github.com/taikiikemiyagi/robosysy_2023/actions/workflows/test.yml/nadge.svg)
+![test](https://github.com/taikiikemiyagi/robosys_2023/actions/workflows/test.yml/badge.svg)
 
 標準出力から読み込んだ数字を足す。
 
