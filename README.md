@@ -1,8 +1,20 @@
-# plusコマンド
+# robosys_2023
 
 ![test](https://github.com/IkemiyagiTaiki/robosys_2023/actions/workflows/test.yml/badge.svg)
 
+## plus
+
 標準出力から読み込んだ数字を足す。
+
+### 使用方法
+
+```
+
+$ seq 5 | ./plus
+15
+
+```
+
 
 ## ダウンロード方法
 
@@ -12,7 +24,16 @@ Githubを利用できる環境で以下のコマンドをコピーする
 
 $ https://github.com/IkemiyagiTaiki/robosys_2023.git
 
+
 ```
+その後、実行権限を付与する。
+
+```
+
+$ chmod +x plus
+
+```
+
 
 ## 必要なソフトウェア
 * Python
