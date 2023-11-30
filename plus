@@ -13,11 +13,8 @@ def tonum(s):
 ans = 0
 for line in sys.stdin:
     line = line.rstrip()
-    #print(tonum(line))
-    #print("+")
 
     ans += tonum(line) 
 
-#print("=")
 print(ans)
   
