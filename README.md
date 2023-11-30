@@ -4,7 +4,15 @@
 
 標準出力から読み込んだ数字を足す。
 
+##ダウンロード方法
 
+Githubを利用できる環境で以下のコマンドをコピーする
+
+```
+
+$ https://github.com/IkemiyagiTaiki/robosys_2023.git
+
+```
 
 ## 必要なソフトウェア
 * Python
