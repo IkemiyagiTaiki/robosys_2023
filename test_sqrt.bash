@@ -9,7 +9,6 @@ ng () {
 
 res=0
 
-### I/O TEST ###
 out=$( ./sqrt 5 )
 [ "${out}" = 2.23606797749979  ] || ng $LINENO
 
