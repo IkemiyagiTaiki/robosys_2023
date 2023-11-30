@@ -4,7 +4,7 @@
 
 ## plus
 
-標準出力から読み込んだ数字を足す。
+標準出力から読み込んだ数字を足す
 
 ### 使用方法
 
@@ -14,7 +14,18 @@ $ seq 5 | ./plus
 15
 
 ```
+## sqrt
 
+標準出力からよみこんだ数字を平方根する
+
+## 使用方法
+
+```
+
+$ ./sqrt 4
+2
+
+```
 
 ## ダウンロード方法
 
@@ -45,7 +56,7 @@ $ chmod +x plus
 ## 権利関係
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-    * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    * [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
  
 
  © 2023 Taiki Ikemiyagi
