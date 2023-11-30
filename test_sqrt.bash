@@ -13,7 +13,7 @@ res=0
 out=$( ./sqrt 5 )
 [ "${out}" = 2.23606797749979  ] || ng $LINENO
 
-[ "$res" = 0 ] &r echo OK
+[ "$res" = 0 ] && echo OK
 exit $res
 
 
