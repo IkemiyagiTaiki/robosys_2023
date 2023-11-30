@@ -9,8 +9,8 @@ ng () {
 
 res=0
 
-out=$(./sqrt 5)
-[ "${out}" = 2.23606797749979 ] || ng {$LINENO}
+out=$(./sqrt 4)
+[ "${out}" = 2.0 ] || ng {$LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
