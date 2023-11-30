@@ -2,6 +2,8 @@
 
 ![test](https://github.com/IkemiyagiTaiki/robosys_2023/actions/workflows/test.yml/badge.svg)
 
+2023年ロボットシステム学で使っているリポジトリです
+
 ## ダウンロード方法
 
 Githubを利用できる環境で以下のコマンドをコピーする
